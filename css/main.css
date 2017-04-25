@@ -184,8 +184,9 @@ footer{
     color: #004579;
     text-decoration: none;
     padding: 3px;
-    padding-left: 56px;
-    padding-right: 55px;
+    width: 208px;
+    height: 36px;
+    text-align:center;
     position: absolute;
     margin: 0 auto;
     margin-top: 85px;
