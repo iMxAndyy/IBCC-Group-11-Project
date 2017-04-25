@@ -14,10 +14,10 @@
             <i class="fa fa-chevron-left" onclick="plusDivs(-1)"aria-hidden="true"></i>
         </div>
         <div id="imgData" style="display:none;">
-            <div class="mySlides" style="background-color:#004579;color:#fff;height:200px;">
+            <div class="mySlides" style="background-color:#004579;color:#fff;height:200px!important;">
                 Mary Jones
                 <br />
-                <p>Story: My time in the womens' land army, at just 16, I was thrown in at...</p>
+                <p style="padding:0px;">Story: My time in the womens' land army, at just 16, I was thrown in at...</p>
                 <br />
                 <a href="story">READ MORE</a>
             </div>
