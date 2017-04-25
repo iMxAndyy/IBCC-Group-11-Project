@@ -29,6 +29,7 @@ body{
 .logo{
     width:60%;
     text-align:center;
+    margin-left:100px;
 }
 /* Navigation Bar */
 header{
