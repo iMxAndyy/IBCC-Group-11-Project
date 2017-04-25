@@ -22,6 +22,7 @@
                 <form action="/php/save_meeting.php" method="post">
                     <div class="">ARRANGE A MEETING</div>
                     <input type="text" name="name" value="NAME">
+                    <input type="text" name="tel" value="TELEPHONE NUMBER">
                     <textarea name="story"></textarea>
                     <input type="submit" value="Submit">
                 </form>

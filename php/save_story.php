@@ -2,7 +2,7 @@
 
 include_once('connect.php');
 
-$stmt = $conn->prepare("INSERT INTO VeteranDetails (Name, Email, Tel, Story) VALUES (?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO VeteranDetails (Name, Email, Tel, Story) VALUES (?, ?, ?, ?, NOW())");
 $stmt->bind_param($name, $email, $tel, $story);
 
 $name=$_POST["name"];
