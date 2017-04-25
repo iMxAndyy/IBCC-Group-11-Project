@@ -13,6 +13,7 @@
 
     <?php
     include('includes/header.html');
+    include('includes/contact.php');
     include('includes/footer.html');
     ?>
 
