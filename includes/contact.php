@@ -43,7 +43,7 @@
         </div>
         <div id="imgData" style="display:none;">
             <?php
-                include('./php/get_stories.php');
+                include_once('./php/get_stories.php');
             ?>
         </div>
         <div id="memory-wall-slides">
