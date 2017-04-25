@@ -1,9 +1,10 @@
 <?php
 
 include_once('connect.php');
+echo 'debug 1';
 
 $stmt = $conn->prepare("INSERT INTO VeteranDetails (Name, Email, Tel, Story) VALUES (?, ?, ?, ?, NOW())");
-$stmt->bind_param($name, $email, $tel, $story);
+$stmt->bind_param("ssis", $name, $email, $tel, $story);
 
 $name=$_POST["name"];
 $email=$_POST["email"];
@@ -13,4 +14,5 @@ $story=$_POST["story"];
 $stmt->execute();
 $stmt->close();
 $conn->close();
+
 ?>
