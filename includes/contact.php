@@ -8,7 +8,7 @@
     <div class="row">
         <div class="column2">
             <div class="form">
-                <form action="/action_page.php" method="post">
+                <form action="/php/save_story.php" method="post">
                     <input type="text" name="name" value="NAME">
                     <input type="text" name="email" value="EMAIL">
                     <input type="text" name="tel" value="TELEPHONE NUMBER">
@@ -19,21 +19,15 @@
         </div>
         <div class="column2">
             <div class="form">
-                <form action="/action_page.php" method="post">
+                <form action="/php/save_meeting.php" method="post">
+                    <div class="">ARRANGE A MEETING</div>
                     <input type="text" name="name" value="NAME">
-                    <input type="text" name="email" value="EMAIL">
-                    <input type="text" name="tel" value="TELEPHONE NUMBER">
                     <textarea name="story"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
     </div>
-
-
-
-
-
 
 
 
