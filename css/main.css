@@ -189,7 +189,12 @@ footer{
     padding-right: 56px;
     position: absolute;
     margin: 0 auto;
+    bottom: -60px;
 }
 .mySlides p{
     font-size:16pt;
+    position:absolute;
+    width: 214px;
+    height: 110px;
+    text-overflow: ellipsis;
 }
