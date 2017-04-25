@@ -180,3 +180,8 @@ footer{
     font-size: 12pt;
     font-weight: 400;
 }
+.mySlides a{
+    background-color:#fff;
+    color:#004579;
+    text-decoration:none;
+}
