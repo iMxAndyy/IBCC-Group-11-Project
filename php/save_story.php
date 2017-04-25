@@ -16,8 +16,8 @@ $tel=$_POST["tel"];
 $story=$_POST["story"];
 
 $stmt->execute();
-$stmt->close();
-$conn->close();
+$conn = null;
+$stmt = null;
 
 header('Location:/contact.php');
 ?>

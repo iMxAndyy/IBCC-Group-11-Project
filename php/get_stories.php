@@ -19,6 +19,6 @@ if ($stmt->execute()) {
     }
 }
 
-$stmt->close();
-$conn->close();
+$conn = null;
+$stmt = null;
 ?>
