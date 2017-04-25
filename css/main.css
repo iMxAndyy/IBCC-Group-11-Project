@@ -184,4 +184,13 @@ footer{
     background-color:#fff;
     color:#004579;
     text-decoration:none;
+    padding:3px;
+    padding-left:5px;
+    padding-right:5px;
+    position:absolute;
+    margin:0 auto;
+    margin-bottom:3px;
+}
+.mySlides p{
+    font-size:16pt;
 }
