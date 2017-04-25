@@ -2,7 +2,7 @@
 
 include_once('connect.php');
 
-$stmt = $conn->prepare("SELECT VetID, Name, Story FROM MyGuests ORDER BY DateAdded DESC");
+$stmt = $conn->prepare("SELECT VetID, Name, Story FROM VeteranDetails ORDER BY DateAdded DESC");
 $stmt->execute();
 
 // set the resulting array to associative
