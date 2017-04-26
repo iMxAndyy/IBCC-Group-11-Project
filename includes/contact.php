@@ -7,6 +7,7 @@
         margin-bottom: 30px;
         margin-right: 20px;
         margin-left: 20px;
+        height:350px;
     }
     .textinput{
         font-size: 12pt;
@@ -48,6 +49,7 @@
         <div class="column2">
             <div class="form">
                 <form action="/php/save_story.php" method="post">
+                    <div style="text-align:center;margin:0 auto;margin-top:30px;margin-bottom:20px;">TELL US YOUR STORY</div>
                     <input type="text" style="margin-top:30px;" class="textinput" name="name" value="NAME">
                     <input type="text" class="textinput" name="email" value="EMAIL">
                     <input type="text" class="textinput" name="tel" value="TELEPHONE NUMBER">
@@ -59,7 +61,7 @@
         <div class="column2">
             <div class="form">
                 <form action="/php/save_meeting.php" method="post">
-                    <div style="margin:0 auto;margin-top:30px;margin-bottom:20px;">ARRANGE A MEETING</div>
+                    <div style="text-align:center;margin:0 auto;margin-top:30px;margin-bottom:20px;">ARRANGE A MEETING</div>
                     <input type="text" class="textinput"  name="name" value="NAME">
                     <input type="text" class="textinput"  name="tel" value="TELEPHONE NUMBER">
                     <textarea name="data" class="textinput" value="SUBJECT & PREFERRED DATE/TIME"></textarea>
