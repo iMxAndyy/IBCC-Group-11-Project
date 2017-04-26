@@ -8,7 +8,7 @@ $stmt->execute();
 
 if ($stmt->execute()) {
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo '<div class="mySlides" style="background-color:#004579;color:#fff;height:200px!important;">';
+        echo '<div class="mySlides" style="background-color:#004579;color:#fff;height:222px!important;">';
         echo $row[Name];
         echo '<br /><p style="padding:0px;">';
         echo $row[Story]; echo '</p>';
