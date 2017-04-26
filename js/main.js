@@ -64,4 +64,9 @@ function changeLargeImage(ImgDir){
     frame.style.height = height+"px";
     frame.style.width = width+"px";
     frame.style.backgroundImage = "url('"+ImgDir+"')";
+    frame.style.display = "block";
+}
+function closeLargeImage(){
+    document.getElementById("overlay-wrapper").style.pointerEvents = "none";
+    frame.style.display = "none";
 }

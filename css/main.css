@@ -222,3 +222,22 @@ footer{
     top:0;
     left:0;
 }
+#close-large-image{
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid #004579;
+    border-radius: 100px;
+    /* width: 37px; */
+    color: #004579;
+    /* padding-left: 7px; */
+    box-sizing: border-box;
+    /* width: 30px; */
+    display: inline-block;
+    padding: 20px;
+    font-size: 20pt;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
