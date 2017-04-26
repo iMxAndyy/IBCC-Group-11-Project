@@ -10,7 +10,7 @@ $stmt->bindParam(':tel', $tel);
 $stmt->bindParam(':data', $data);
 
 $name=$_POST["name"];
-$email=$_POST["tel"];
+$tel=$_POST["tel"];
 $data=$_POST["data"];
 
 $stmt->execute();
