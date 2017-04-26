@@ -11,7 +11,7 @@
     </div>
     <div class="memory-wall">
         <div class="arrow-left">
-            <i class="fa fa-chevron-left" onclick="plusDivs(-1)"aria-hidden="true"></i>
+            <i class="fa fa-chevron-left" onclick="plusDivs(1)"aria-hidden="true"></i>
         </div>
         <div id="imgData" style="display:none;">
             <?php
@@ -22,7 +22,7 @@
 
         </div>
         <div class="arrow-right">
-            <i class="fa fa-chevron-right" onclick="plusDivs(1)"aria-hidden="true"></i>
+            <i class="fa fa-chevron-right" onclick="plusDivs(-1)"aria-hidden="true"></i>
         </div>
     </div>
 
