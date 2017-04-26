@@ -25,6 +25,7 @@
         padding-left:50px;
         padding-right:50px;
         transition:color 0.2s;
+        cursor:pointer;
     }
     .myLabel:hover {
         background-color:#8E4C37;
@@ -46,6 +47,7 @@
                 <img class="big-icon" src="/img/upload.png">
                 <label class="myLabel">
                     <input type="file" name="fileToUpload" onchange="this.form.submit()" required/>
+                    <br />
                     <span>UPLOAD IMAGE</span>
                 </label>
             </form>
