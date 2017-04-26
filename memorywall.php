@@ -13,6 +13,7 @@
 
     <?php
     include('includes/header.html');
+    include('includes/memorywall.php');
     include('includes/footer.html');
     ?>
 
