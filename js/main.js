@@ -53,7 +53,7 @@ function changeLargeImage(ImgDir){
     console.log(smallImage.src);
     console.log(ImgDir);
     console.log(frame);
-    frame.style.height = height;
-    frame.style.width = width;
-    frame.style.backgroundImage = ImgDir;
+    frame.style.height = height+"px";
+    frame.style.width = width+"px";
+    frame.style.backgroundImage = "url('"+ImgDir+"')";
 }
