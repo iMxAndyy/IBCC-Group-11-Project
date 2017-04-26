@@ -8,6 +8,7 @@
         margin-right: 20px;
         margin-left: 20px;
         height:350px;
+        position:relative;
     }
     .textinput{
         font-size: 12pt;
@@ -36,8 +37,7 @@
         margin-bottom: 30px;
         cursor:pointer;
         position: absolute;
-        margin-left: 97px;
-        bottom: -277px;
+        bottom:0;
     }
     .submit-form:hover{
         background-color:#17598a;
