@@ -226,7 +226,7 @@ footer{
 #close-large-image{
     cursor: pointer;
     background-color: #ffffff;
-    border: 2px solid #8e3719;
+    border: 2px solid #004579;
     border-radius: 100px;
     color: #004579;
     box-sizing: border-box;
@@ -238,7 +238,9 @@ footer{
     position: absolute;
     top: -15px;
     right: -15px;
+    transition:color 0.2s,background-color 0.2s;
 }
 #close-large-image:hover{
-    background-color:#17598a;
+    background-color:#004579;
+    color:#fff;
 }
