@@ -6,7 +6,7 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="column2" style="height:400px;">
-            <a href="http://placehold.it"><img src="http://placehold.it/400x400"></a>
+            <a href="/res/1.jpg"><img src="http://placehold.it/400x400"></a>
         </div>
     </div>
     <div class="memory-wall">
@@ -31,7 +31,7 @@
     </div>
     <div class="row" style="border-bottom:10px solid #8e3719">
         <div class="column2" style="height:400px;">
-            <a href="http://placehold.it"><img src="http://placehold.it/400x400"></a>
+            <a href="/res/2.jpg"><img src="http://placehold.it/400x400"></a>
         </div>
         <div class="column2 blue center" style="height:400px;">
             <h1 style="margin-top:30px;margin-bottom:15px;">Contact Us</h1>
