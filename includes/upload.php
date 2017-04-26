@@ -23,10 +23,12 @@
         color: #fff;
         transition: color 0.2s;
         cursor: pointer;
-        display: inline-block;
-        height:70px;
-        width:200px;
-        margin-top:20px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        height: 36px;
+        width: 300px;
+        margin-top: 20px;
     }
     .myLabel:hover {
         background-color:#8E4C37;
