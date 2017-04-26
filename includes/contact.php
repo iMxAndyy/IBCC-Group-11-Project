@@ -7,6 +7,8 @@
         font-family:roboto;
         font-size:12pt;
         border:1px solid #004579;
+        display:block;
+        padding:5px;
     }
 </style>
 
