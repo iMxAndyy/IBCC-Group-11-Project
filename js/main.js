@@ -52,13 +52,13 @@ function changeLargeImage(ImgDir){
     smallImage.src = ImgDir;
     var height = smallImage.height;
     var width = smallImage.width;
-    while (width>(w*0.8)) {
-        width=width*0.8;
-        height=height*0.8;
+    while (width>(w*0.95)) {
+        width=width*0.95;
+        height=height*0.95;
     }
-    while (height>(h*0.8)) {
-        width=width*0.8;
-        height=height*0.8;
+    while (height>(h*0.95)) {
+        width=width*0.95;
+        height=height*0.95;
     }
     frame.style.height = height+"px";
     frame.style.width = width+"px";
