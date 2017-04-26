@@ -43,8 +43,8 @@ function showDivs() {
 }
 
 function changeLargeImage(ImgDir){
-    var w = document.getElementById("overlay-wrapper").width;
-    var h = document.getElementById("overlay-wrapper").height;
+    var w = document.getElementById("overlay-wrapper").offsetWidth;
+    var h = document.getElementById("overlay-wrapper").offsetHeight;
     console.log(w);
     console.log(h);
     var frame = document.getElementById('large-image');
