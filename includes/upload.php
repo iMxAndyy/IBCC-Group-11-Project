@@ -1,3 +1,12 @@
+<style>
+    .upload{
+        background-color:#004579;
+        color:#fff;
+        padding-top:100px;
+        padding-bottom:100px;
+    }
+</style>
+
 <div class="row">
     <div class="column2">
         <div class="upload">
