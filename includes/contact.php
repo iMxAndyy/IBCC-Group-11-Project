@@ -62,8 +62,8 @@
                     <div style="margin:0 auto;margin-top:30px;margin-bottom:20px;">ARRANGE A MEETING</div>
                     <input type="text" class="textinput"  name="name" value="NAME">
                     <input type="text" class="textinput"  name="tel" value="TELEPHONE NUMBER">
-                    <textarea name="data" value="SUBJECT & PREFERRED DATE/TIME"></textarea>
-                    <input type="submit" value="Submit">
+                    <textarea name="data" class="textinput" value="SUBJECT & PREFERRED DATE/TIME"></textarea>
+                    <input type="submit" class="submit-form" value="Submit">
                 </form>
             </div>
         </div>
