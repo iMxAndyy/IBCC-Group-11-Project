@@ -19,13 +19,14 @@
 
     /***** Example custom styling *****/
     .myLabel {
-        background-color:#8e3719;
-        color:#fff;
-        padding:10px;
-        padding-left:50px;
-        padding-right:50px;
-        transition:color 0.2s;
-        cursor:pointer;
+        background-color: #8e3719;
+        color: #fff;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        transition: color 0.2s;
+        cursor: pointer;
+        display: inline-block;
     }
     .myLabel:hover {
         background-color:#8E4C37;
