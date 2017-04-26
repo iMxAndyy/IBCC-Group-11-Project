@@ -2,7 +2,7 @@
 
 include_once('connect.php');
 
-$target_dir = "/data/img/";
+$target_dir = "../data/img/";
 $imgDir = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
