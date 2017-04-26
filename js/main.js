@@ -46,8 +46,8 @@ function changeLargeImage(ImgDir){
     var frame = document.getElementById('large-image');
     var smallImage = new Image();
     smallImage.src = ImgDir;
-    var height = img.height;
-    var width = img.width;
+    var height = smallImage.height;
+    var width = smallImage.width;
     frame.style.height = height;
     frame.style.width = width;
     frame.style.backgroundImage = ImgDir;
