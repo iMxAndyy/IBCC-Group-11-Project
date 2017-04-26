@@ -39,7 +39,7 @@
     </div>
     <div class="memory-wall" style="height:230px;">
         <div class="arrow-left" style="margin-top:38px;">
-            <i class="fa fa-chevron-left" onclick="plusDivs(-1)"aria-hidden="true"></i>
+            <i class="fa fa-chevron-left" onclick="plusDivs(1)"aria-hidden="true"></i>
         </div>
         <div id="imgData" style="display:none;">
             <?php
@@ -50,7 +50,7 @@
 
         </div>
         <div class="arrow-right" style="margin-top:38px;">
-            <i class="fa fa-chevron-right" onclick="plusDivs(1)"aria-hidden="true"></i>
+            <i class="fa fa-chevron-right" onclick="plusDivs(-1)"aria-hidden="true"></i>
         </div>
     </div>
 </div>
