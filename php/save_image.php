@@ -3,7 +3,7 @@
 include_once('connect.php');
 
 $target_dir = "../data/img/";
-$imgDir = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$imgDir = "/data/img/" . basename($_FILES["fileToUpload"]["name"]);
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);

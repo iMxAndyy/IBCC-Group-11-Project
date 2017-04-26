@@ -14,18 +14,9 @@
             <i class="fa fa-chevron-left" onclick="plusDivs(-1)"aria-hidden="true"></i>
         </div>
         <div id="imgData" style="display:none;">
-            <div class="mySlides" style="background-image:url(http://placehold.it/100x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/110x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/120x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/130x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/140x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/150x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/160x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/170x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/180x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/190x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/200x150)"></div>
-            <div class="mySlides" style="background-image:url(http://placehold.it/210x150)"></div>
+            <?php
+                include('/php/get_images.php');
+            ?>
         </div>
         <div id="memory-wall-slides">
 
