@@ -21,7 +21,6 @@
         margin-bottom: 10px;
     }
     .submit-form{
-        padding: 10px;
         /* width: 90%; */
         text-align: center;
         margin: 0 auto;
@@ -35,6 +34,13 @@
         font-family: dincondensedcregular;
         font-size: 18pt;
         margin-bottom: 30px;
+        cursor:pointer;
+        position: absolute;
+        margin-left: 97px;
+        bottom: -277px;
+    }
+    .submit-form:hover{
+        background-color:#17598a;
     }
 </style>
 
