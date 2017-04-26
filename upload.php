@@ -13,6 +13,7 @@
 
     <?php
     include('includes/header.html');
+    include('includes/upload.html');
     include('includes/footer.html');
     ?>
 
