@@ -5,9 +5,6 @@ include_once('connect.php');
 $stmt = $conn->prepare("SELECT VetID, Name, Story FROM VeteranDetails ORDER BY DateAdded DESC");
 $stmt->execute();
 
-// set the resulting array to associative
-$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-
 
 if ($stmt->execute()) {
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
