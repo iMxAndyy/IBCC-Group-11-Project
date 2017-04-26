@@ -46,8 +46,9 @@
             <form action="/php/save_image.php" method="post" enctype="multipart/form-data">
                 <img class="big-icon" src="/img/upload.png">
                 <label class="myLabel">
-                    <input type="file" name="fileToUpload" onchange="this.form.submit()" required/>
-                    <br />
+                    <input type="file" name="fileToUpload" onchange="document.getElementById('SUBMITFORM').click()" required/>
+                    <input type="submit" value="submit" id="SUBMITFORM" style="display:none;">
+                    <br /> <br /> <br />
                     <span>UPLOAD IMAGE</span>
                 </label>
             </form>
