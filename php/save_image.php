@@ -1,10 +1,14 @@
 <?php
+function generateRandomString($length = 10) {
+    return substr(str_shuffle(str_repeat($x='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length/strlen($x)) )),1,$length);
+}
 
 include_once('connect.php');
 
 $target_dir = "../data/img/";
-$imgDir = "/data/img/" . basename($_FILES["fileToUpload"]["name"]);
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$imgKey = generateRandomString();
+$imgDir = "/data/img/" . $imgKey;
+$target_file = $target_dir . $imgKey;
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
@@ -17,11 +21,6 @@ if(isset($_POST["submit"])) {
         echo "File is not an image.";
         $uploadOk = 0;
     }
-}
-// Check if file already exists
-if (file_exists($target_file)) {
-    echo "Sorry, file already exists.";
-    $uploadOk = 0;
 }
 // Check file size
 if ($_FILES["fileToUpload"]["size"] > 500000) {
