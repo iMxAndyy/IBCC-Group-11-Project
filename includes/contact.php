@@ -1,14 +1,24 @@
 <style>
     .form{
-        border:#004579;
-        color:#fff;
+        border: 2px solid #004579;
+        /* border: #004579; */
+        color:#004579;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .textinput{
-        font-family:roboto;
-        font-size:12pt;
-        border:1px solid #004579;
-        display:block;
-        padding:5px;
+        font-family: roboto;
+        font-size: 12pt;
+        border: 1px solid #004579;
+        display: block;
+        padding: 5px;
+        color: #004579;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 </style>
 
