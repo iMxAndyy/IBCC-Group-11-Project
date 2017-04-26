@@ -48,7 +48,7 @@
                 <label class="myLabel">
                     <input type="file" name="fileToUpload" id="submit" onchange="document.getElementById('SUBMITFORM').click()" required/>
                     <input type="submit" value="submit" name="submit" id="SUBMITFORM" style="display:none;">
-
+                    <br /><br />
                     <span style="display:block;">UPLOAD IMAGE</span>
                 </label>
             </form>
