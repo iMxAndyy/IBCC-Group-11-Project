@@ -1,6 +1,6 @@
 <div class="row blue">
 <?php
-include_once('connect.php');
+include_once('../php/connect.php');
 $stmt = $conn->prepare("SELECT Name, Story FROM VeteranDetails WHERE VetID = :VetID ORDER BY DateAdded DESC");
 $stmt->bindParam(':VetID', $_GET['id']);
 $stmt->execute();
