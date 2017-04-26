@@ -20,12 +20,20 @@
         margin-bottom: 10px;
     }
     .submit-form{
-        padding:10px;
-        width:90%;
-        text-align:center;
-        margin:0 auto;
-        background-color:#004579;
-        color:#fff;
+        padding: 10px;
+        /* width: 90%; */
+        text-align: center;
+        margin: 0 auto;
+        background-color: #004579;
+        color: #fff;
+        border: none;
+        display: block;
+        padding: 12px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-family: dincondensedcregular;
+        font-size: 18pt;
+        margin-bottom: 30px;
     }
 </style>
 
@@ -51,10 +59,10 @@
         <div class="column2">
             <div class="form">
                 <form action="/php/save_meeting.php" method="post">
-                    <div class="">ARRANGE A MEETING</div>
-                    <input type="text" name="name" value="NAME">
-                    <input type="text" name="tel" value="TELEPHONE NUMBER">
-                    <textarea name="data"></textarea>
+                    <div style="margin:0 auto;margin-top:30px;margin-bottom:20px;">ARRANGE A MEETING</div>
+                    <input type="text" class="textinput"  name="name" value="NAME">
+                    <input type="text" class="textinput"  name="tel" value="TELEPHONE NUMBER">
+                    <textarea name="data" value="SUBJECT & PREFERRED DATE/TIME"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
