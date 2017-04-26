@@ -146,12 +146,13 @@ p{
     color:#8E4C37;
 }
 .mySlides{
-    border:10px solid #004579;
-    display:inline-block;
-    width:215px !important;
-    height:140px !important;
-    margin-right:20px;
-    background-size:cover;
+
+    border: 5px solid #004579;
+    display: inline-block;
+    width: 226px !important;
+    height: 170px !important;
+    margin-right: 20px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #memory-wall-slides{

@@ -57,7 +57,7 @@
             <div class="form">
                 <form action="/php/save_story.php" method="post">
                     <div style="text-align:center;margin:0 auto;margin-top:30px;margin-bottom:20px;">TELL US YOUR STORY</div>
-                    <input type="text" style="margin-top:30px;" class="textinput" name="name" value="NAME">
+                    <input type="text" class="textinput" name="name" value="NAME">
                     <input type="text" class="textinput" name="email" value="EMAIL">
                     <input type="text" class="textinput" name="tel" value="TELEPHONE NUMBER">
                     <textarea class="textinput" value="STORY" name="story"></textarea>
