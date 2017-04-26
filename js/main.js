@@ -68,5 +68,6 @@ function changeLargeImage(ImgDir){
 }
 function closeLargeImage(){
     document.getElementById("overlay-wrapper").style.pointerEvents = "none";
+    var frame = document.getElementById('large-image');
     frame.style.display = "none";
 }
