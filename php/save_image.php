@@ -6,7 +6,6 @@ function generateRandomString($length = 10) {
 
 include_once('connect.php');
 
-echo $_FILES["fileToUpload"]["name"];
 $target_dir = "../data/img/";
 $imageFileType = pathinfo(basename($_FILES["fileToUpload"]["name"]),PATHINFO_EXTENSION);
 $imgKey = generateRandomString().".".$imageFileType;
