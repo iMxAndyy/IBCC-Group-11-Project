@@ -213,6 +213,7 @@ footer{
     box-shadow: 0px 1px 69px 0px rgba(0,0,0,0.46);
     background-size: cover;
     background-repeat: no-repeat;
+    display:none;
 }
 #overlay-wrapper{
     width:100%;
@@ -225,13 +226,10 @@ footer{
 #close-large-image{
     cursor: pointer;
     background-color: #ffffff;
-    border: 2px solid #004579;
+    border: 2px solid #8e3719;
     border-radius: 100px;
-    /* width: 37px; */
     color: #004579;
-    /* padding-left: 7px; */
     box-sizing: border-box;
-    /* width: 30px; */
     display: inline-block;
     padding: 20px;
     font-size: 20pt;
@@ -240,4 +238,7 @@ footer{
     position: absolute;
     top: -15px;
     right: -15px;
+}
+#close-large-image:hover{
+    background-color:#17598a;
 }

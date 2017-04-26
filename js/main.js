@@ -57,7 +57,7 @@ function changeLargeImage(ImgDir){
         width=width*0.95;
         height=height*0.95;
     }
-    while (height>(h*0.95)) {
+    while (height>(h*0.8)) {
         width=width*0.95;
         height=height*0.95;
     }
