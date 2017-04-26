@@ -41,3 +41,14 @@ function showDivs() {
         wall.appendChild(clone);
     }
 }
+
+function changeLargeImage(ImgDir){
+    var frame = document.getElementById('large-image');
+    var smallImage = new Image();
+    smallImage.src = ImgDir;
+    var height = img.height;
+    var width = img.width;
+    frame.style.height = height;
+    frame.style.width = height;
+    frame.style.backgroundImage = ImgDir;
+}

@@ -201,3 +201,7 @@ footer{
     height: 135px;
     text-overflow: ellipsis;
 }
+#large-image{
+    position:fixed;
+    border:3px solid #004579;
+}

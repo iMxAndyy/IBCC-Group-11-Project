@@ -7,8 +7,7 @@ $stmt->execute();
 
 if ($stmt->execute()) {
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-        echo $row[ImgDir];
-        echo '<div class="mySlides" style="background-image:url(.'.$row[ImgDir].'"></div>';
+        echo '<div class="mySlides" onclick="changeLargeImage("'.$row[ImgDir].'")" style="background-image:url(.'.$row[ImgDir].'"></div>';
     }
 }
 
