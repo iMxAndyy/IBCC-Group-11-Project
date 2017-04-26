@@ -19,27 +19,23 @@
 
     /***** Example custom styling *****/
     .myLabel {
-        border: 2px solid #AAA;
-        border-radius: 4px;
-        padding: 2px 5px;
-        margin: 2px;
-        background: #DDD;
-        display: inline-block;
+        background-color:#8e3719;
+        color:#fff;
+        padding:10px;
+        padding-left:50px;
+        padding-right:50px;
+        transition:color 0.2s;
     }
     .myLabel:hover {
-        background: #CCC;
-    }
-    .myLabel:active {
-        background: #CCF;
-    }
-    .myLabel :invalid + span {
-        color: #A44;
-    }
-    .myLabel :valid + span {
-        color: #4A4;
+        background-color:#8E4C37;
     }
     .submit-button{
 
+    }
+
+    .big-icon{
+        width:150px;
+        height:150px;
     }
 </style>
 
@@ -47,12 +43,11 @@
     <div class="column2">
         <div class="upload">
             <form action="/php/save_image.php" method="post" enctype="multipart/form-data">
+                <img class="big-icon" src="/img/upload.png">
                 <label class="myLabel">
-                    <input type="file" name="fileToUpload" required/>
-                    <span>CHOOSE IMAGE</span>
+                    <input type="file" name="fileToUpload" onchange="this.form.submit()" required/>
+                    <span>UPLOAD IMAGE</span>
                 </label>
-                <br />
-                <input class="submit-button" type="submit" value="UPLOAD" name="submit">
             </form>
         </div>
     </div>
