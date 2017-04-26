@@ -43,8 +43,8 @@ function showDivs() {
 }
 
 function changeLargeImage(ImgDir){
-    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    var w = document.getElementById("overlay-wrapper").width;
+    var h = document.getElementById("overlay-wrapper").height;
     var frame = document.getElementById('large-image');
     var smallImage = new Image();
     smallImage.src = ImgDir;
@@ -58,7 +58,6 @@ function changeLargeImage(ImgDir){
         width=width*0.8;
         height=height*0.8;
     }
-    while (height>)
     frame.style.height = height+"px";
     frame.style.width = width+"px";
     frame.style.backgroundImage = "url('"+ImgDir+"')";
