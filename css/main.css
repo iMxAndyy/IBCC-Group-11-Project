@@ -202,8 +202,16 @@ footer{
     text-overflow: ellipsis;
 }
 #large-image{
-    position:fixed;
+    position:relative;
     height:200px;
     width:200px;
+    margin:0 auto;
+    margin-top:10%;
     border:3px solid #004579;
+}
+#overlay-wrapper{
+    width:100vh;
+    height:100vh;
+    pointer-events:none;
+    position:fixed;
 }

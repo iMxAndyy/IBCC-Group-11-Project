@@ -25,5 +25,7 @@
     </div>
 </div>
 
-<div id="large-image">
+<div id="overlay-wrapper">
+    <div id="large-image">
+    </div>
 </div>
