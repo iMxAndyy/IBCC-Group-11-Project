@@ -48,6 +48,11 @@ function changeLargeImage(ImgDir){
     smallImage.src = ImgDir;
     var height = smallImage.height;
     var width = smallImage.width;
+    console.log(height);
+    console.log(width);
+    console.log(smallImage.src);
+    console.log(ImgDir);
+    console.log(frame);
     frame.style.height = height;
     frame.style.width = width;
     frame.style.backgroundImage = ImgDir;
