@@ -4,7 +4,7 @@
     padding-top: 30px;
     text-align: center;">MEMORY WALL
     </h1>
-    <p stlye="
+    <p style="
     text-align: center;
     padding-bottom: 30px;">Your images from the International Bomber Command Memorial. Click on a photo to enlarge it.</p>
 </div>
