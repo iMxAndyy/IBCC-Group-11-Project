@@ -23,7 +23,7 @@
                     <div class="">ARRANGE A MEETING</div>
                     <input type="text" name="name" value="NAME">
                     <input type="text" name="tel" value="TELEPHONE NUMBER">
-                    <textarea name="story"></textarea>
+                    <textarea name="data"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
