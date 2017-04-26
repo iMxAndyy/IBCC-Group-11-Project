@@ -43,15 +43,22 @@ function showDivs() {
 }
 
 function changeLargeImage(ImgDir){
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     var frame = document.getElementById('large-image');
     var smallImage = new Image();
     smallImage.src = ImgDir;
     var height = smallImage.height;
     var width = smallImage.width;
-    while (width>1200) {
+    while (width>(w*0.8)) {
         width=width*0.8;
         height=height*0.8;
     }
+    while (height>(h*0.8)) {
+        width=width*0.8;
+        height=height*0.8;
+    }
+    while (height>)
     frame.style.height = height+"px";
     frame.style.width = width+"px";
     frame.style.backgroundImage = "url('"+ImgDir+"')";
