@@ -46,10 +46,10 @@
             <form action="/php/save_image.php" method="post" enctype="multipart/form-data">
                 <img class="big-icon" src="/img/upload.png">
                 <label class="myLabel">
-                    <input type="file" name="fileToUpload" id="submit"<!--onchange="document.getElementById('SUBMITFORM').click()"--> required/>
-                    <input type="submit" value="submit" name="submit" id="SUBMITFORM" <!--style="display:none;"-->>
-                    <br /> <br /> <br />
-                    <span>UPLOAD IMAGE</span>
+                    <input type="file" name="fileToUpload" id="submit" onchange="document.getElementById('SUBMITFORM').click()" required/>
+                    <input type="submit" value="submit" name="submit" id="SUBMITFORM" style="display:none;">
+
+                    <span style="display:block;">UPLOAD IMAGE</span>
                 </label>
             </form>
         </div>
