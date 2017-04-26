@@ -46,14 +46,10 @@ function changeLargeImage(ImgDir){
     var frame = document.getElementById('large-image');
     var smallImage = new Image();
     smallImage.src = ImgDir;
-    var height = smallImage.height;
     var width = smallImage.width;
-    console.log(height);
-    console.log(width);
-    console.log(smallImage.src);
-    console.log(ImgDir);
-    console.log(frame);
-    frame.style.height = height+"px";
+    if(width>1200){
+        width=1200;
+    }
     frame.style.width = width+"px";
     frame.style.backgroundImage = "url('"+ImgDir+"')";
 }
