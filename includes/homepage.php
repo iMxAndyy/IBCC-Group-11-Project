@@ -15,7 +15,7 @@
         </div>
         <div id="imgData" style="display:none;">
             <?php
-                include('/php/get_images.php');
+                include('./php/get_images.php');
             ?>
         </div>
         <div id="memory-wall-slides">
