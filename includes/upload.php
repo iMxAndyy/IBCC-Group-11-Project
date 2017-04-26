@@ -4,13 +4,13 @@
         color:#fff;
         padding-top:100px;
         padding-bottom:100px;
+        text-align:center;
     }
     .blue-text{
         color:#004579;
         text-align:center;
         padding-top:100px;
     }
-
 
     label.myLabel input[type="file"] {
         position: fixed;
@@ -38,6 +38,9 @@
     .myLabel :valid + span {
         color: #4A4;
     }
+    .submit-button{
+
+    }
 </style>
 
 <div class="row">
@@ -45,11 +48,11 @@
         <div class="upload">
             <form action="/php/save_image.php" method="post" enctype="multipart/form-data">
                 <label class="myLabel">
-                    <input type="file" name="fileToUpload" id="fileToUpload">
-                    <span>UPLOAD IMAGE</span>
+                    <input type="file" name="fileToUpload" required/>
+                    <span>CHOOSE IMAGE</span>
                 </label>
-
-                <input type="submit" value="Upload Image" name="submit">
+                <br />
+                <input class="submit-button" type="submit" value="UPLOAD" name="submit">
             </form>
         </div>
     </div>
