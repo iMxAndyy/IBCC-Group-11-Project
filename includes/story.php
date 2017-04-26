@@ -11,7 +11,10 @@ if ($stmt->execute()) {
         echo '</h1>';
         echo '</div>';
         echo '<div class="row">';
-        echo '<p>'.$row['Story'].'</p>';
+        echo '<p style="
+    font-family: roboto;
+    padding-top: 50px;
+    padding-bottom: 100px;">'.$row['Story'].'</p>';
         echo '</div>';
     }
 }

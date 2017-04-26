@@ -200,6 +200,10 @@ footer{
     width: 225px;
     height: 135px;
     text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow:hidden;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
 }
 #large-image{
     position: relative;
