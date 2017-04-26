@@ -49,6 +49,6 @@ function changeLargeImage(ImgDir){
     var height = img.height;
     var width = img.width;
     frame.style.height = height;
-    frame.style.width = height;
+    frame.style.width = width;
     frame.style.backgroundImage = ImgDir;
 }
