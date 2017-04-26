@@ -34,10 +34,11 @@
         padding-right: 150px;
         font-family: dincondensedcregular;
         font-size: 18pt;
-        margin-bottom: 30px;
+        margin-bottom: 12px;
         cursor:pointer;
         position: absolute;
-        bottom:0;
+        bottom: 0;
+        margin-left: 100px;
     }
     .submit-form:hover{
         background-color:#17598a;
