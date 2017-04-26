@@ -40,3 +40,9 @@
         </div>
     </div>
 </div>
+
+<div id="overlay-wrapper">
+    <div id="large-image">
+        <div id="close-large-image" onclick="closeLargeImage()"><i class="fa fa-times" aria-hidden="true"></i></div>
+    </div>
+</div>
