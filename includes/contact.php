@@ -1,3 +1,15 @@
+<style>
+    .form{
+        border:#004579;
+        color:#fff;
+    }
+    .textinput{
+        font-family:roboto;
+        font-size:12pt;
+        border:1px solid #004579;
+    }
+</style>
+
 <div class="content">
     <div class="row blue center">
         <h1 style="padding-top:30px;">Contact us and tell us your story</h1>
@@ -9,10 +21,10 @@
         <div class="column2">
             <div class="form">
                 <form action="/php/save_story.php" method="post">
-                    <input type="text" name="name" value="NAME">
-                    <input type="text" name="email" value="EMAIL">
-                    <input type="text" name="tel" value="TELEPHONE NUMBER">
-                    <textarea name="story"></textarea>
+                    <input type="text" class="textinput" name="name" value="NAME">
+                    <input type="text" class="textinput" name="email" value="EMAIL">
+                    <input type="text" class="textinput" name="tel" value="TELEPHONE NUMBER">
+                    <textarea class="textinput" name="story"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
