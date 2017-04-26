@@ -12,7 +12,7 @@ if ($stmt->execute()) {
         echo $row[Name];
         echo '<br /><p style="padding:0px;">';
         echo $row[Story]; echo '</p>';
-        echo '<br /><a href="story?id='.$row[VetID].'">READ MORE</a></div>';
+        echo '<br /><a href="story.php?id='.$row[VetID].'">READ MORE</a></div>';
     }
 }
 
