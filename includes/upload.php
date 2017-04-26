@@ -21,12 +21,12 @@
     .myLabel {
         background-color: #8e3719;
         color: #fff;
-        padding: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
         transition: color 0.2s;
         cursor: pointer;
         display: inline-block;
+        height:70px;
+        width:200px;
+        margin-top:20px;
     }
     .myLabel:hover {
         background-color:#8E4C37;
